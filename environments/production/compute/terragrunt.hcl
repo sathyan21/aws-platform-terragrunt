@@ -19,5 +19,5 @@ inputs = {
   region            = local.env_vars.locals.region
   vpc_id            = dependency.vpc.outputs.vpc_id
   subnet_id         = dependency.vpc.outputs.subnet_ids[0]
-  instance_type     = "c5.xlarge"
+  instance_type     = "c5.16xlarge"
 }
